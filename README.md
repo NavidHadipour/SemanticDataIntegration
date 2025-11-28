@@ -22,7 +22,7 @@ We developed ten competency questions to capture meaningful information within t
 Example CQ: Which universities are located in the US?
 $Q(\text{Name}) :- \text{Colleges Universities} (\text{Name}, \text{Country}), \text{Country} = \text{"US"}$
 
-Schema Matching & EvaluationWe implemented multiple schema matching techniques and evaluated their performance:
+Schema Matching & Evaluation: We implemented multiple schema matching techniques and evaluated their performance as following.
 
 1. Matchers Used String Matchers: Edit Distance Matcher 16and Jaro-Winkler Matcher.Semantic Matcher: Word2vec Matcher.
 
