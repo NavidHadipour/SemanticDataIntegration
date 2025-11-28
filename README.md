@@ -2,12 +2,23 @@
 
 This project focuses on the core problem of semantic data integration within the University domain. Our objective was to unify diverse, multi-source datasets related to higher education institutions and build a common structure (a mediated schema) capable of answering complex queries across all sources.
 
-Team InformationTeam: 21 Members: Sanaz Bayat, Shirin Shoghli, Shahrzad Torabi, Navid Hadipour Limouei
+Team Information
+Team: 21 Members: Sanaz Bayat, Shirin Shoghli, Shahrzad Torabi, Navid Hadipour Limouei
 
 Datasets and Schema
-We selected and integrated three key datasets; Colleges and Universities Dataset National University Rankings University and College Campuses These datasets were used to design a Mediated Schema for a unified representation.
+We selected and integrated three key datasets: 
+1- Colleges and Universities
+2- Dataset National University Rankings
+3- University and College Campuses 
 
-The mediated schema consists of three main relations:Colleges UniversitiesStudentEmployee Competency Questions (CQs)We developed ten competency questions to capture meaningful information within the domain, such as location, ranking, tuition, and contacts. These questions were formalized using Conjunctive Query (CQ) logic.
+These datasets were used to design a Mediated Schema for a unified representation.
+The mediated schema consists of three main relations:
+Colleges Universities
+Student
+Employee 
+
+Competency Questions (CQs)
+We developed ten competency questions to capture meaningful information within the domain, such as location, ranking, tuition, and contacts. These questions were formalized using Conjunctive Query (CQ) logic.
 Example CQ: Which universities are located in the US?
 $Q(\text{Name}) :- \text{Colleges Universities} (\text{Name}, \text{Country}), \text{Country} = \text{"US"}$
 
