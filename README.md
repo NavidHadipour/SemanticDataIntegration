@@ -3,9 +3,9 @@
 This project focuses on the core problem of semantic data integration within the University domain. Our objective was to unify diverse, multi-source datasets related to higher education institutions and build a common structure (a mediated schema) capable of answering complex queries across all sources.
 
 Team Information
-Team: 21 Members: Sanaz Bayat, Shirin Shoghli, Shahrzad Torabi, Navid Hadipour Limouei
+Members: Sanaz Bayat, Shirin Shoghli, Shahrzad Torabi, Navid Hadipour Limouei
 
-Datasets and Schema
+Datasets and Schema: 
 We selected and integrated three key datasets: 
 1- Colleges and Universities
 2- Dataset National University Rankings
@@ -17,7 +17,7 @@ Colleges Universities,
 Student, 
 Employee 
 
-Competency Questions (CQs)
+Competency Questions (CQs):
 We developed ten competency questions to capture meaningful information within the domain, such as location, ranking, tuition, and contacts. These questions were formalized using Conjunctive Query (CQ) logic.
 Example CQ: Which universities are located in the US?
 $Q(\text{Name}) :- \text{Colleges Universities} (\text{Name}, \text{Country}), \text{Country} = \text{"US"}$
@@ -39,13 +39,13 @@ Schema Matching & EvaluationWe implemented multiple schema matching techniques a
 4. XML Parsing and Similarity (Task 3)We further evaluated schema matching using XML structures and calculated similarity based on path and node information.
 
 Path Similarity: Evaluated using Jarowinkler similarity on schema paths.
-DS1: F1-measure = 0.922
-DS2: F1-measure = 1
+DS1: F1-measure = 0.922, 
+DS2: F1-measure = 1, 
 DS3: F1-measure = 0.75
 
 Node Similarity: Evaluated using Jaccard similarity on schema nodes.
-DS1: F1-measure = 0.833
-DS2: F1-measure = 0.75
+DS1: F1-measure = 0.833, 
+DS2: F1-measure = 0.75, 
 DS3: F1-measure = 0.857
 
 ## Evaluation for the participants
