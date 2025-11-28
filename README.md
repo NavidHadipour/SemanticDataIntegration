@@ -1,6 +1,6 @@
 # Team_21
 
-University Domain Use CaseThis project focuses on the core problem of semantic data integration within the University domain. Our objective was to unify diverse, multi-source datasets related to higher education institutions and build a common structure (a mediated schema) capable of answering complex queries across all sources.
+This project focuses on the core problem of semantic data integration within the University domain. Our objective was to unify diverse, multi-source datasets related to higher education institutions and build a common structure (a mediated schema) capable of answering complex queries across all sources.
 
 Team InformationTeam: 21 Members: Sanaz Bayat, Shirin Shoghli, Shahrzad Torabi, Navid Hadipour Limouei
 
