@@ -13,8 +13,8 @@ We selected and integrated three key datasets:
 
 These datasets were used to design a Mediated Schema for a unified representation.
 The mediated schema consists of three main relations:
-Colleges Universities
-Student
+Colleges Universities, 
+Student, 
 Employee 
 
 Competency Questions (CQs)
